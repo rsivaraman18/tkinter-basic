@@ -1,0 +1,5 @@
+#  class1 - Basic template for every Tkinter's 
+
+from tkinter import *
+window = Tk()
+window = mainloop() # infinite loop .place at the bottom of code
