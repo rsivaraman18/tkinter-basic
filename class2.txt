@@ -6,7 +6,13 @@ window = Tk()
 
 
 ''' We can Set Geometric Size of window   '''
-window.title("Tkinter Basic Window")
+
+window.geometry("500x500")
+window.title('First Project')
+window.config(bg='orange')
+#window.iconbitmap('pic1.ico')  # convert icon to .ico format
+
 window.minsize(width=100,height=200)
 window.maxsize(width=600,height=600)
+
 window = mainloop() # infinite loop .place at the bottom of code
